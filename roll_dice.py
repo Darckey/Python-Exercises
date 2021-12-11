@@ -1,7 +1,7 @@
 import random
 x = 0
 throw_counts = 0
-
+#######
 while x != 1:
     x = random.randint(1, 6)
     print(x)
