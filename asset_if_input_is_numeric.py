@@ -1,13 +1,14 @@
-def assert_if_input_is_numeric(input):
+def assert_if_input_is_numeric(u_input):
     try:
-        value = int(input)
+        value = int(u_input)
         print(f'Correct, you gave numeric valua => {value}')
     except ValueError:
         try:
-            value = float(input)
+            value = float(u_input)
             print(f'Correct, you gave numeric valua with decimals => {value}')
         except ValueError:
-            print(f'Enterad value "{input}" is not numeric')
+            print(input(f'Enterad value "{u_input}" is not numeric!'))
+
 
 user_input = input("Enter numeric value! ")
 assert_if_input_is_numeric(user_input)
