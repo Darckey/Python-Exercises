@@ -12,3 +12,6 @@ def assert_if_input_is_numeric(u_input):
 
 user_input = input("Enter numeric value! ")
 assert_if_input_is_numeric(user_input)
+
+# Method isNumeric can be used to asser if the string is numeric or not 
+# isTheStringNumeric = user_input123.isnumeric()
