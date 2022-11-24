@@ -7,3 +7,5 @@ if buyer_credit >= 500000:
     print(f'You have a good credit and your down payment is {good_buyer_down_payment}!')
 else:
     print(f'You have a bad credit and your down payment is {bad_buyer_down_payment}!')
+
+    #comment

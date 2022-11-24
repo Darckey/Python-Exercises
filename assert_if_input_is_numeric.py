@@ -12,3 +12,5 @@ def assert_if_input_is_numeric(u_input):
 
 user_input = input("Enter numeric value! ")
 assert_if_input_is_numeric(user_input)
+
+#comment
